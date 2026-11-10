@@ -32,7 +32,7 @@ print(f"有{ava}人及格")
 #for h in coal_list:
     #if h > coal_list[5]:
      #   print(f"最高分为:{h}")
-#用for循环太牵强，i guss while更好
+
 index = 0
 mx = coal_list[index]
 for mu in coal_list:
@@ -43,7 +43,7 @@ print(f"最高成绩是{mx}")
 cont_list = [3,5,3,8,5,9,3]
 cont = []
 for i in cont_list:
-    if i not in cont:#单纯用in做不出来，前面试探加了not得到正确结果，单纯通过in循环耗费大量时间并且没有结果
+    if i not in cont:
         cont.append(i)
 print(cont)
 #8
