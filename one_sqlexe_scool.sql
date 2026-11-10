@@ -42,3 +42,7 @@ INSERT INTO `students` VALUES ('231166', 'kay', 78, '一班');
 INSERT INTO `students` VALUES ('231177', 'juhua', 55, '二班');
 
 SET FOREIGN_KEY_CHECKS = 1;
+SELECT * FROM students;
+SELECT * FROM students WHERE score >= 60;
+SELECT * FROM students ORDER BY score DESC;
+SELECT * FROM students ORDER BY score DESC LIMIT 3;
