@@ -48,3 +48,8 @@ SELECT * FROM students;
 SELECT * FROM students WHERE score >= 60;
 SELECT * FROM students ORDER BY score DESC;
 SELECT * FROM students ORDER BY score DESC LIMIT 3;
+#two
+DESC students;
+SELECT class , COUNT(DISTINCT id) FROM students GROUP BY class;
+SELECT class , AVG(score) FROM students GROUP BY class;
+SELECT class , AVG(score) FROM students GROUP BY class HAVING AVG(score) > 70;
