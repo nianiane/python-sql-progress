@@ -40,7 +40,9 @@ INSERT INTO `students` VALUES ('231152', 'halle', 68, '二班');
 INSERT INTO `students` VALUES ('231165', 'josh', 88, '一班');
 INSERT INTO `students` VALUES ('231166', 'kay', 78, '一班');
 INSERT INTO `students` VALUES ('231177', 'juhua', 55, '二班');
-
+INSERT INTO students VALUES(26303088,'kik',56,'一班');
+INSERT INTO students VALUES(26303077,'joj',65,'一班');
+INSERT INTO students VALUES(26303022,'caa',99,'三班');
 SET FOREIGN_KEY_CHECKS = 1;
 SELECT * FROM students;
 SELECT * FROM students WHERE score >= 60;
